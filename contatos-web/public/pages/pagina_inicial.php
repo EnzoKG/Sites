@@ -9,7 +9,7 @@
         if(isset($_SESSION['contatos']))
         {
 
-            echo "<table>"
+            echo "<table class='table table-bordered'>"
                     ."<tr>"
                         ."<th>nome</th>"
                         ."<th>email</th>"
